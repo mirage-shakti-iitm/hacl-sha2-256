@@ -1,0 +1,5 @@
+(library
+ (name hacl_sha2_256)
+ (public_name hacl-sha2-256)
+ (libraries cstruct)
+ (c_names hacl_sha2_256_stubs Hacl_SHA2_256))
