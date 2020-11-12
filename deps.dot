@@ -1,0 +1,6 @@
+digraph {
+	"lib:cstruct"	 [label=cstruct,
+		style=filled];
+	"lib:hacl-sha2-256"	 [label="hacl-sha2-256"];
+	"lib:hacl-sha2-256" -> "lib:cstruct";
+}
